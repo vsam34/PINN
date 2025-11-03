@@ -23,7 +23,7 @@ Creating numerical models of physical systems is important to simulate the syste
 
 **Physics-Informed Neural Networks** (PINNs) use simplified physics equations as a foundation and apply deep learning to model the residual errors (due to complex/nonlinear characteristics) between these simplified models and actual observations. This hybrid approach combines the interpretability and generalizability of physics with the pattern-recognition power of neural networks, producing more accurate system representations without requiring massive amounts of data.
 <p align="center">
-<img width="560" height="237" alt="image" src="https://github.com/user-attachments/assets/4e46cbe4-84ae-4c38-bec1-55d16e4b445d" />
+<img width="560" height="237" alt="image" src="https://github.com/user-attachments/assets/ebc4d9d4-1656-412a-943a-87685b3c19aa" />
 </p>
 
 *Raissi, Perdikaris, and Karniadakis* introduced **Physics-Informed Neural Networks** where neural networks were explicitly trained to solve problems while complying with identifiable physics laws expressed as nonlinear PDEs. This is done by including the differential equations directly into the loss function when training the neural network.
@@ -33,3 +33,9 @@ Given the specific boundary conditions & initial conditions, <img width="129" he
 <p align="center">
   <img width="553" height="356" alt="image" src="https://github.com/user-attachments/assets/5c724387-68ca-4597-b7af-6d518cb7bf29" />
 </p>
+
+# References
+- https://www.ibm.com/think/topics/machine-learning
+- https://www.mathworks.com/discovery/physics-informed-neural-networks.html
+- https://i-systems.github.io/tutorial/KSNVE/220525/01_PINN.html
+- https://benmoseley.blog/my-research/so-what-is-a-physics-informed-neural-network/
